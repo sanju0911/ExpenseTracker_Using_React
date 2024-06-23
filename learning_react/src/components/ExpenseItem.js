@@ -1,20 +1,14 @@
+// Write your code at relevant places in the code below:
+
+import "./ExpenseItem.css";
+
 function ExpenseItem() {
   return (
-    <div>
+    <div className="expense-item">
+      <div>15 August 2023</div>
       <div>
-        <p>12/6/2024</p>
-        <p>Food - $5</p>
-        <div>delhi</div>
-      </div>
-      <div>
-        <p>12/6/2024</p>
-        <p>Petrol - $20</p>
-        <div>delhi</div>
-      </div>
-      <div>
-        <p>12/6/2024</p>
-        <p>Movie - $10</p>
-        <div>delhi</div>
+        <h2 className="expense-item__description ">Book</h2>
+        <div className="expense-item__price">$10</div>
       </div>
     </div>
   );
