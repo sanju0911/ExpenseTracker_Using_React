@@ -1,9 +1,10 @@
 function ExpenseItem() {
   return (
     <div>
-      <p>Food - $5</p>
-      <p>Petrol - $20</p>
-      <p>Movie - $10</p>
+      <div>
+        <h1>12/7/2024</h1>
+      </div>
+      <div>hyderabad</div>
     </div>
   );
 }
