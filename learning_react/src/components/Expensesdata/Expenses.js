@@ -5,7 +5,7 @@ import Card from "./Card";
 function Expenses(props) {
   return (
     <Card className="expenses">
-      {props.cost.map((expense) => (
+      {props.expenses.map((expense) => ( // Use props.expenses instead of props.cost
         <ExpenseItem
           key={expense.id}
           date={expense.date}
